@@ -1,8 +1,6 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavItem from 'react-bootstrap/NavItem';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import './App.css';
 
 import Home from './Components/Home';
@@ -16,7 +14,7 @@ function App() {
     
     <div className="App">
       <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="javascript:void(0)"><Link to="/"><img
+  <Navbar.Brand><Link to="/"><img
         src="ADG3.jpg"
         width="32"
         height="32"
@@ -26,9 +24,9 @@ function App() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="javascript:void(0)"><Link to="/">Home</Link></Nav.Link>
-      <Nav.Link href="javascript:void(0)"><Link to="/about">About</Link></Nav.Link>
-      <Nav.Link href="javascript:void(0)"><Link to="/modpacks">Modpacks</Link></Nav.Link>
+      <Nav.Link><Link to="/">Home</Link></Nav.Link>
+      <Nav.Link ><Link to="/about">About</Link></Nav.Link>
+      <Nav.Link><Link to="/modpacks">Modpacks</Link></Nav.Link>
       
     </Nav>
   </Navbar.Collapse>

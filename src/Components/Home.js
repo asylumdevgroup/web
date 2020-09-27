@@ -1,6 +1,11 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col, Card } from 'react-bootstrap';
 
+const cardStyle = {
+  width: '18rem',
+  margin: 50
+};
+
 const Home = () => (
   <Container style={{ padding: 50 }}>
     <Jumbotron>
@@ -24,7 +29,7 @@ const Home = () => (
         <hr width="150px"/>
       </Col>
       <Col xs={12} md={6}>
-      <Card style={{ width: '18rem' }, {margin: 50}} bg='light'>
+      <Card style={cardStyle} bg='light'>
         <Card.Body>
           <Card.Title>ADG SkyAsylum</Card.Title>
           <Card.Text>
@@ -34,7 +39,7 @@ const Home = () => (
     </Card.Text>
         </Card.Body>
       </Card>
-      <Card style={{ width: '18rem' }, {margin: 50}} bg='light'>
+      <Card style={cardStyle} bg='light'>
         <Card.Body>
           <Card.Title>ADG Finality</Card.Title>
           <Card.Text>
