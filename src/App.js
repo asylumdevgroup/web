@@ -12,8 +12,8 @@ import { Link, Switch, Route } from 'react-router-dom';
 function App() {
   return (
     
-    <div className="App">
-      <Navbar bg="light" expand="lg">
+    <div className="App" style={{fontFamily: 'Montserrat'}}>
+      <Navbar bg="dark" expand="lg">
   <Navbar.Brand><Link to="/"><img
         src="ADG3.jpg"
         width="32"

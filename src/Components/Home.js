@@ -9,7 +9,7 @@ const cardStyle = {
 const Home = () => (
   <Container style={{ padding: 50 }}>
     <Jumbotron>
-    <h1>Asylum Dev Group</h1>
+    <h1 style={{fontFamily: 'Monoton'}}><span style={{color: '#ff0066'}}>Asylum</span> <span style={{color: '#33ccff'}}>Dev</span> <span style={{color: '#ffff99'}}>Group</span></h1>
     <p class="lead">Asylum Dev Group is a development team founded by MCAdventureCity that develops Modpacks and Mods for the sandbox game <em>Minecraft</em>.</p>
     </Jumbotron>
     <Row style={{padding: 50}}>
