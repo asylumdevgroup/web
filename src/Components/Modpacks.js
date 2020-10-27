@@ -92,7 +92,7 @@ const Modpacks = () => (
         <Card.Body>
           <Card.Title>ADG Omega 3</Card.Title>
           <Card.Text>
-          Built for Minecraft 1.14.4 - Released October 19, 2019 - Last Updated September 19, 2020
+          Built for Minecraft 1.14.4 - Released October 19, 2019 - Last Updated October 26, 2020
     </Card.Text>
         </Card.Body>
       </Card>
@@ -101,7 +101,7 @@ const Modpacks = () => (
         <Card.Body>
           <Card.Title>ADG Omega 4</Card.Title>
           <Card.Text>
-          Built for Minecraft 1.15.2 - Released January 6, 2020 - Last Updated October 3, 2020
+          Built for Minecraft 1.15.2 - Released January 6, 2020 - Last Updated October 7, 2020
     </Card.Text>
         </Card.Body>
       </Card>
@@ -110,7 +110,7 @@ const Modpacks = () => (
         <Card.Body>
           <Card.Title>ADG Omicron 1</Card.Title>
           <Card.Text>
-          Built for Minecraft 1.12.2 - Released December 25, 2018 - Last Updated October 3, 2020
+          Built for Minecraft 1.12.2 - Released December 25, 2018 - Last Updated October 26, 2020
     </Card.Text>
         </Card.Body>
       </Card>
@@ -119,7 +119,7 @@ const Modpacks = () => (
         <Card.Body>
           <Card.Title>ADG Omicron 1 Lighter Edition</Card.Title>
           <Card.Text>
-          Built for Minecraft 1.12.2 - Released November 20, 2019 - Last Updated September 26, 2020
+          Built for Minecraft 1.12.2 - Released November 20, 2019 - Last Updated October 26, 2020
     </Card.Text>
         </Card.Body>
       </Card>
