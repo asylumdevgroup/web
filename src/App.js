@@ -9,9 +9,10 @@ import Modpacks from './Components/Modpacks';
 
 import { Link, Switch, Route } from 'react-router-dom';
 
-function App() {
-  return (
-    
+class App extends React.Component {
+  
+  render() {
+    return (
     <div className="App" style={{fontFamily: 'Montserrat'}}>
       <Navbar bg="dark" expand="lg">
   <Navbar.Brand><Link to="/"><img
@@ -32,12 +33,23 @@ function App() {
   </Navbar.Collapse>
 </Navbar>
 <Switch>
-<Route exact path='/' component={Home} />
-<Route path='/about' component={About} />
-<Route path='/modpacks' component={Modpacks} />
+<Route exact path='/' >
+  <Home/>
+</Route>
+<Route path='/about' >
+  <About/>
+</Route>
+
+<Route path='/modpacks' >
+  <Modpacks />
+</Route>
+
 </Switch>
     </div>
-  );
+    )
 }
+}
+  
+  
 
 export default App;

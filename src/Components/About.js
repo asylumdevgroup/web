@@ -9,13 +9,12 @@ const About = () => (
         <hr width="150px"/>
       </Col>
       <Col xs={12} md={6}>
-      <p>The First Iteration of what would eventually become Asylum Dev Group, the CityTeam, was founded in early 2015 by MCAdventureCity. After a rocky start and several long periods of inactivity, the name was eventually changed to Asylum Dev Group. Our "first" modpack, ADG Volatile 2, was released in June 2016. Our most recently released pack, ADG Omega 4, was released January 2020. We currently have four developers, one of whom is inactive.</p>
+      <p>The First Iteration of what would eventually become Asylum Dev Group, the CityTeam, was founded in early 2015 by MCAdventureCity. After a rocky start and several long periods of inactivity, the name was eventually changed to Asylum Dev Group. Our "first" modpack, ADG Volatile 2, was released in June 2016. Our most recently released pack, ADG Omega 5, was released August 2021. We currently have three members.</p>
           <h3>Our People</h3>
           <ul>
               <li>MCAdventureCity - Founder/Lead Developer</li>
-              <li>Cranky Supertoon - Developer/Artist</li>
-              <li>Between the Ashes - Developer</li>
-              <li>Theta Sigma - Inactive Artist</li>
+              <li>CJWilk - Co-Lead Developer</li>
+              <li>UnicorNora - Developer/Artist</li>
           </ul>
       </Col>
     </Row>

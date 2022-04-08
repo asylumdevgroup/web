@@ -27,28 +27,75 @@ const Home = () => (
     <Col xs={12} md={6}>
       <h2>Upcoming Projects</h2>
         <hr width="150px"/>
+        <p>Disclaimer: All dates are tentative.</p>
       </Col>
       <Col xs={12} md={6}>
       <Card style={cardStyle} bg='light'>
         <Card.Body>
-          <Card.Title>ADG SkyAsylum</Card.Title>
+          <Card.Title>ADG Untitled GregTech Pack</Card.Title>
           <Card.Text>
-            An Expert Skyblock Modpack focused around automation and long processing chains, inspired by GregTech.
+            A GregTech CE Unofficial Modpack focused on intertwined progression between magic, dimensional exploration, and technology.
             <br />
-            Coming Q4 2020
+            This is our primary in-development project.
+            <br />
+            Coming October 2022
     </Card.Text>
         </Card.Body>
       </Card>
+      <Card style={cardStyle} bg='light'>
+        <Card.Body>
+          <Card.Title>ADG Compressed Skies</Card.Title>
+          <Card.Text>
+            A Steampunk-themed Skyblock Modpack focused around several unknown steam-themed mods, with Forge Energy based mods pushed to late-game.
+            <br />
+            I will be resuming development of this pack as a side project around early June 2022.
+            <br />
+            Coming July 2022
+    </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card style={cardStyle} bg='light'>
+        <Card.Body>
+          <Card.Title>ADG The Great Adventure II</Card.Title>
+          <Card.Text>
+            An ADG Expert Modpack Designed around a linear, story-based progression through many dimensions and Magic mods.
+            <br />
+            Coming Q1 2023
+    </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card style={cardStyle} bg='light'>
+        <Card.Body>
+          <Card.Title>ADG Ultimatum</Card.Title>
+          <Card.Text>
+            ADG's flagship Expert Modpack for 1.16.5.
+            <br />
+            Coming Q2 2023
+    </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card style={cardStyle} bg='light'>
+        <Card.Body>
+          <Card.Title>ADG SkyAsylum</Card.Title>
+          <Card.Text>
+            An Expert Skyblock Modpack focused around automation and long processing chains with GregTech CE Unofficial and Gregicality.
+            <br />
+            Coming Q3 2023
+    </Card.Text>
+        </Card.Body>
+      </Card>
+      
       <Card style={cardStyle} bg='light'>
         <Card.Body>
           <Card.Title>ADG Finality</Card.Title>
           <Card.Text>
             The Final ADG Modpack for 1.12.2, intended to be a send-off for this era of Modded <em>Minecraft</em>.
             <br />
-            Coming Q1 2021
+            Coming TBD
     </Card.Text>
         </Card.Body>
       </Card>
+      
       </Col>
     </Row>
   </Container>

@@ -1,9 +1,40 @@
 import React from 'react';
-import { Col, Container, Row, Card } from 'react-bootstrap';
+import { Col, Container, Row, Card} from 'react-bootstrap';
+import { useSelector } from 'react-redux';
+
+import {Link} from 'react-router-dom'
+
+const cardImgStyle = {
+    width: "20%",
+    aspectRatio: 1/1,
+    objectFit: "contain"
+};
 
 
+const Modpacks = () => {
+  const modpacks = useSelector(state => state.modpacks);
+  const renderModpackList = () => {
+    let aModpack = modpacks.map(packObj =>
+      <Card style={{ flexDirection: 'row'}} bg='light'>
+          <Card.Img variant="top" src={packObj.imageUrl} style={cardImgStyle}/>
+          <Card.Body>
+            <Card.Title><Link to = {`/modpacks/${packObj.id}`}> {packObj.name} </Link></Card.Title>
+            <Card.Text>
+              Built for Minecraft {packObj.mcVer}
+      </Card.Text>
+      <Card.Text>
+              Released {packObj.releaseDate}
+      </Card.Text>
+      <Card.Text>
+      Last Updated {packObj.lastUpdated}
+      </Card.Text>
+          </Card.Body>
+        </Card>
+       )
+    return aModpack;
+  }
 
-const Modpacks = () => (
+  return (
   <Container style={{ padding: 50 }}>
     <Row>
       <Col xs={12} md={6}>
@@ -15,6 +46,10 @@ const Modpacks = () => (
       </Col>
     </Row>
     <Row style={{padding: 100}}>
+    {renderModpackList()}
+    </Row>
+    
+    {/* <Row style={{padding: 100}}>
       <Card style={{ width: '18rem' }} bg='light'>
         <Card.Img variant="top" src="Volatile1LogoV3.png" />
         <Card.Body>
@@ -74,7 +109,7 @@ const Modpacks = () => (
         <Card.Body>
           <Card.Title>ADG Omega 1</Card.Title>
           <Card.Text>
-          Built for Minecraft 1.12.2 - Released June 11, 2017 - Last Updated October 3, 2020
+          Built for Minecraft 1.12.2 - Released June 11, 2017 - Last Updated January 9, 2021
     </Card.Text>
         </Card.Body>
       </Card>
@@ -92,7 +127,7 @@ const Modpacks = () => (
         <Card.Body>
           <Card.Title>ADG Omega 3</Card.Title>
           <Card.Text>
-          Built for Minecraft 1.14.4 - Released October 19, 2019 - Last Updated October 26, 2020
+          Built for Minecraft 1.14.4 - Released October 19, 2019 - Last Updated December 30, 2020
     </Card.Text>
         </Card.Body>
       </Card>
@@ -110,7 +145,7 @@ const Modpacks = () => (
         <Card.Body>
           <Card.Title>ADG Omicron 1</Card.Title>
           <Card.Text>
-          Built for Minecraft 1.12.2 - Released December 25, 2018 - Last Updated October 26, 2020
+          Built for Minecraft 1.12.2 - Released December 25, 2018 - Last Updated February 15, 2021
     </Card.Text>
         </Card.Body>
       </Card>
@@ -119,13 +154,14 @@ const Modpacks = () => (
         <Card.Body>
           <Card.Title>ADG Omicron 1 Lighter Edition</Card.Title>
           <Card.Text>
-          Built for Minecraft 1.12.2 - Released November 20, 2019 - Last Updated October 26, 2020
+          Built for Minecraft 1.12.2 - Released November 20, 2019 - Last Updated February 15, 2021
     </Card.Text>
         </Card.Body>
       </Card>
-    </Row>
+    </Row> */}
   </Container>
-)
+  )
+}
 
 
 export default Modpacks;
