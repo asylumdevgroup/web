@@ -37,7 +37,7 @@ const About = () => (
           </Card.Body>
         </Card>
         <Card bg='light' style={{ width: '18rem' }}>
-        <Card.Img src='nayla.jpg'/>
+        <Card.Img src='endangerednayla.png'/>
           <Card.Body>
           
               <Card.Title>EndangeredNayla (they/them)</Card.Title>
@@ -51,6 +51,18 @@ const About = () => (
         </Card>
         <Card bg='light' style={{ width: '18rem' }}>
         <Card.Img src='placeholder.jpg'/>
+          <Card.Body>
+              <Card.Title>PIPPIP5789 (he/him)</Card.Title>
+              <Card.Text>
+                Modpack Developer, Themed Division
+              </Card.Text>
+              <Card.Text>
+                Mod Developer
+              </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card bg='light' style={{ width: '18rem' }}>
+        <Card.Img src='cjwilk.jpg'/>
           <Card.Body>
               <Card.Title>CJWilk (he/him)</Card.Title>
               <Card.Text>
