@@ -69,7 +69,7 @@ const initialState = {
         {
             id:9,
             name: 'ADG Omega 3',
-            imageUrl: 'omega3.jpg',
+            imageUrl: 'omega3.png',
             mcVer: '1.14.4',
             releaseDate: 'October 19, 2019',
             lastUpdated: 'January 9, 2024'
@@ -85,7 +85,7 @@ const initialState = {
         {
             id:11,
             name: 'ADG Omega 5',
-            imageUrl: 'omega5.jpg',
+            imageUrl: 'omega5.png',
             mcVer: '1.16.5',
             releaseDate: 'August 19, 2021',
             lastUpdated: 'January 12, 2024'
@@ -93,7 +93,7 @@ const initialState = {
         {
           id:12,
           name: 'ADG Omega 6',
-          imageUrl: 'omega6.jpg',
+          imageUrl: 'omega6.png',
           mcVer: '1.18.2',
           releaseDate: 'September 18, 2023',
           lastUpdated: 'January 12, 2024'
