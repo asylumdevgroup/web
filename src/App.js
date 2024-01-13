@@ -16,7 +16,7 @@ class App extends React.Component {
     <div className="App" style={{fontFamily: 'Montserrat'}}>
       <Navbar bg="dark" expand="lg">
   <Navbar.Brand><Link to="/"><img
-        src="ADG3.jpg"
+        src="adg.png"
         width="32"
         height="32"
         className="d-inline-block align-top"
